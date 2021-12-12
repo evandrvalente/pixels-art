@@ -5,8 +5,8 @@
     display: inline-block;
 }
 
-#magenta {
-    background-color: magenta;
+#black {
+    background-color: black;
 }
 
 #blue {
@@ -19,4 +19,13 @@
 
 #pink {
     background-color: pink;
+}
+
+
+.pixel {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: white;
 }
