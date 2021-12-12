@@ -1,0 +1,22 @@
+.color {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#magenta {
+    background-color: magenta;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#pink {
+    background-color: pink;
+}
