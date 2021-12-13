@@ -27,11 +27,5 @@
     width: 40px;
     border: 1px solid black;
     display: inline-block;
-}
-
-.selected {
-    border: 3px solid red;
-}
-
-.pixel-selected {
+    background-color: white;
 }

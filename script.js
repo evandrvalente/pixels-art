@@ -52,7 +52,7 @@ let fourth = document.getElementById('paleteFourth');
 
 //pintar um elemento pixel
 
-first.addEventListener("click", function()
+first.addEventListener("click", function firstSelected()
     {
      //chosenColor = second.style.backgroundColor;  não funciona   
      //solução baseada em resposta enconrada no stackoverflow https://pt.stackoverflow.com/questions/167565/pegar-o-atributo-de-um-elemento
