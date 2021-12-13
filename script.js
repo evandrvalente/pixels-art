@@ -112,13 +112,16 @@ for (let mxm = 0; mxm < board.length; mxm += 1) {
         putIdx.style.backgroundColor = chosenColor};
 };
 
-/*
-let board = document.getElementById("pixel-board");
-
-board.addEventListener("click", clickPoint);
-function clickPoint (point){
-    console.log(point.target.id);
-    let mudacor = point.target;
-    mudacor.setAttribute("background-color", chosenColor);
+//botão limpar
+function getClean(){
+    let board = document.getElementsByClassName("pixel");
+    for (let mxm = 0; mxm < board.length; mxm += 1) {
+        let putIdx = board[mxm]
+        putIdx.style.backgroundColor = "white";
+    };
 };
-*/
+
+document.getElementById("clear-board").onclick = getClean;
+
+
+
