@@ -2,6 +2,7 @@ window.onload = resetBoard;
 
 let pixelBoardWidh = 5;
 let pixelBoardHight = 5;
+let = chosenColor = "white";
 
 //determinar quantidade de elementos pixels por coluna e gerar uma linha
 
@@ -32,6 +33,7 @@ for (ln = 0; ln < pixelBoardHight-1; ln +=1) {
 //resetar estilos   
 function resetBoard (){
 document.getElementById("paleteFirst").classList.add("selected");
+chosenColor = window.getComputedStyle(first).backgroundColor;
 generateRows
 }
 
@@ -49,8 +51,6 @@ let fourth = document.getElementById('paleteFourth');
 //first.addEventListener("click", );
 
 //pintar um elemento pixel
-
-let = chosenColor = "white"
 
 first.addEventListener("click", function()
     {
